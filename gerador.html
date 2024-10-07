@@ -31,6 +31,7 @@
                     <input id="inMail" name="inMail" type="email" placeholder="E-mail">
                     <input id="inCargo" name="inCargo" type="text" placeholder="Cargo do Funcionário">
                     <input id="inDepto" name="inDepto" type="text" placeholder="Departamento do Funcionário">
+                    <input id="inImg" name="inImg" type="file" accept=".jpeg, .jpg, .png, .bmp" placeholder="Selecione uma foto">
                     <div class="div-botoes">
                         <button id="btnEnviar" name="btnEnviar" type="button">Enviar</button>  
                     </div>            
@@ -38,14 +39,17 @@
             </div>
             <div id="divCracha">
                 <div id="divCrachaContent">
+                    <div id="area-foto">
+                        
+                    </div>
                     <p>
-                        <span>Nome:</span> Pafúncio da Silva
+                        <span>Nome:</span> <span id="spNome" class="spData"></span>
                     </p>
                     <p>
-                        <span>Cargo:</span> Gerente de Coisa Nenhuma
+                        <span>Cargo:</span> <span id="spCargo" class="spData"></span>
                     </p>
                     <p>
-                        <span>Depto:</span> Recursos Humanos
+                        <span>Depto:</span> <span id="spDepto" class="spData"></span>
                     </p>
                     <div id="qrCode">
                         QR Code Aqui

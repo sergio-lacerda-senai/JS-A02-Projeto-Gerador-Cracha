@@ -129,6 +129,7 @@ span {
     height: 100%;
     padding: 0px 10px;
     margin: auto;
+    text-align: center;
 }
 
 #qrCode {
@@ -142,11 +143,16 @@ span {
     margin: 15px 0px;
 }
 
-label {
-    padding-right: 10px;
+.spData {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
 }
 
-.imagens {
+#area-foto {
+    text-align: center;
+}
+
+#foto {
     height: 100px;
     padding: 10px 10px;
 }
